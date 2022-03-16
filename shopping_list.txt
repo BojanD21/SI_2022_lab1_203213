@@ -1,5 +1,11 @@
 Mushrooms x 1
 Chicken x 2
 Eggs x 6
+<<<<<<< HEAD
 Soda x 1
 Bacon x 8
+=======
+Burger sauce x 1
+Bacon x 10
+Soda
+>>>>>>> branch2
