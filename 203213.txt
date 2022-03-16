@@ -1,0 +1,135 @@
+4. $ git clone https://github.com/BojanD21/SI_2022_lab1_203213
+   $ cd SI_2022_lab1_203213
+
+5. $ git status
+   $ git add shopping_list.txt
+   $ git commit -m "Add 5 items to the shopping list"
+
+6. $ git add shopping_list.txt
+   $ git commit -m "Add quantities to the items."
+
+7. $ git branch branch1
+   $ git branch branch2
+
+8. $ git log
+commit 2d4b2313496753670e7808a6968b76b73f1dbed6 (HEAD -> master, branch2, branch1)
+Author: Bojan Dimitrovski <bojan.dimitrovski.2@students.finki.ukim.mk>
+Date:   Wed Mar 16 17:32:08 2022 +0100
+
+    Add quantities to the items.
+
+commit f4cfec9145d22ba4ded3a16c935dcd52a9bef95b
+Author: Bojan Dimitrovski <bojan.dimitrovski.2@students.finki.ukim.mk>
+Date:   Wed Mar 16 17:29:24 2022 +0100
+
+    Add 5 items to the shopping list
+
+commit eb62dd7310868b345d898756f3328ac7969c8fc8 (origin/master, origin/HEAD)
+Author: Bojan Dimitrovski <101260180+BojanD21@users.noreply.github.com>
+Date:   Wed Mar 16 17:21:24 2022 +0100
+
+    Update README.md
+
+commit 2a0a316abf4a90acd9025eae0ef3d0a545a77b36
+Author: Bojan Dimitrovski <101260180+BojanD21@users.noreply.github.com>
+Date:   Wed Mar 16 17:20:26 2022 +0100
+
+9. $ git pull
+   $ git push origin master
+
+10. $ git checkout branch1
+
+11. $ git add shopping_list.txt
+    $ git commit -m "Change quantity of item #5"
+
+12. $ git checkout master
+
+13. $ git add shopping_list.txt
+    $ git commit -m "Change quantity of item #2"
+
+14. $ git pull
+    $ git push origin master
+
+15. $ git checkout branch2
+
+16. $ git add shopping_list.txt
+    $ git commit -m "Modify item #4"
+
+17. $ git log
+commit e920936b781968bb3c58710bbebc4ac27de0fb54 (HEAD -> branch2)
+Author: Bojan Dimitrovski <bojan.dimitrovski.2@students.finki.ukim.mk>
+Date:   Wed Mar 16 17:43:52 2022 +0100
+
+    Modify item #4
+
+commit 2d4b2313496753670e7808a6968b76b73f1dbed6
+Author: Bojan Dimitrovski <bojan.dimitrovski.2@students.finki.ukim.mk>
+Date:   Wed Mar 16 17:32:08 2022 +0100
+
+    Add quantities to the items.
+
+commit f4cfec9145d22ba4ded3a16c935dcd52a9bef95b
+Author: Bojan Dimitrovski <bojan.dimitrovski.2@students.finki.ukim.mk>
+Date:   Wed Mar 16 17:29:24 2022 +0100
+
+    Add 5 items to the shopping list
+
+commit eb62dd7310868b345d898756f3328ac7969c8fc8
+Author: Bojan Dimitrovski <101260180+BojanD21@users.noreply.github.com>
+Date:   Wed Mar 16 17:21:24 2022 +0100
+
+    Update README.md
+
+commit 2a0a316abf4a90acd9025eae0ef3d0a545a77b36
+Author: Bojan Dimitrovski <101260180+BojanD21@users.noreply.github.com>
+Date:   Wed Mar 16 17:20:26 2022 +0100
+
+    Initial commit
+
+18. $ git add shopping_list.txt
+    $ git commit --amend -m "Modify item #4 and add item #6"
+
+19. $ git log
+commit bdee2659556dbfd878cc46e3394d8196675cffa5 (HEAD -> branch2)
+Author: Bojan Dimitrovski <bojan.dimitrovski.2@students.finki.ukim.mk>
+Date:   Wed Mar 16 17:43:52 2022 +0100
+
+    Modify item #4 and add item #6
+
+commit 2d4b2313496753670e7808a6968b76b73f1dbed6
+Author: Bojan Dimitrovski <bojan.dimitrovski.2@students.finki.ukim.mk>
+Date:   Wed Mar 16 17:32:08 2022 +0100
+
+    Add quantities to the items.
+
+commit f4cfec9145d22ba4ded3a16c935dcd52a9bef95b
+Author: Bojan Dimitrovski <bojan.dimitrovski.2@students.finki.ukim.mk>
+Date:   Wed Mar 16 17:29:24 2022 +0100
+
+    Add 5 items to the shopping list
+
+commit eb62dd7310868b345d898756f3328ac7969c8fc8
+Author: Bojan Dimitrovski <101260180+BojanD21@users.noreply.github.com>
+Date:   Wed Mar 16 17:21:24 2022 +0100
+
+    Update README.md
+
+commit 2a0a316abf4a90acd9025eae0ef3d0a545a77b36
+Author: Bojan Dimitrovski <101260180+BojanD21@users.noreply.github.com>
+Date:   Wed Mar 16 17:20:26 2022 +0100
+
+    Initial commit
+
+20. $ git checkout master
+    $ git merge branch1
+
+21. $ git merge branch2
+Auto-merging shopping_list.txt
+CONFLICT (content): Merge conflict in shopping_list.txt
+Automatic merge failed; fix conflicts and then commit the result.
+    $ git status
+    $ git add shopping_list.txt
+    $ $ git commit -m "Fixed conflict"
+    $ git status
+
+22. 
